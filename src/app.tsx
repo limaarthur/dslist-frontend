@@ -1,11 +1,13 @@
 import { Header } from "./components/Header";
-import { GlobalStyle } from "./styles/styles";
+import { ListTypeGame } from "./components/ListTypeGame";
+import { GlobalStyle } from "./styles/global";
 
 export function App() {
   return (
     <>
       <GlobalStyle />
       <Header />
+      <ListTypeGame />
     </>
   )
 }

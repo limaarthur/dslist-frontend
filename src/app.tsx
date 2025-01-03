@@ -1,7 +1,7 @@
 import { Header } from "./components/Header";
 //import { ListTypeGame } from "./components/ListTypeGame";
-import { GameListPage } from "./components/GameListPage";
-//import { Game } from "./components/Game";
+//import { GameListPage } from "./components/GameListPage";
+import { Game } from "./components/Game";
 import { GlobalStyle } from "./styles/global";
 
 export function App() {
@@ -10,8 +10,8 @@ export function App() {
       <GlobalStyle />
       <Header />
       {/*<ListTypeGame />*/}
-      <GameListPage />
-      {/*<Game />*/}
+      {/*<GameListPage />*/}
+      <Game />
   </>
   )
 }

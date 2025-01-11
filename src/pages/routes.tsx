@@ -9,7 +9,7 @@ export function AppRoutes() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/lists-type" element={<ListsTypeGamePage />} />
+        <Route path="/lists" element={<ListsTypeGamePage />} />
         <Route path="/lists-games" element={<ListsGamesPage />} />
         <Route path="/card-game" element={<CardGamePage />} />
       </Routes>

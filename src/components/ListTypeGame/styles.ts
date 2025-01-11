@@ -15,7 +15,7 @@ export const ListTypeContainer = styled.ul`
   margin: 1rem 0rem;
   gap: 0.6rem;
 
-  a {
+  .link-lists {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;

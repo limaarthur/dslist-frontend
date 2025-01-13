@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const GameContainer = styled.div`
+export const GameCardContainer = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -24,7 +24,6 @@ export const GameContainer = styled.div`
     div.game-info {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
 
       width: 100%;
       padding: 0rem 1rem;
@@ -38,40 +37,32 @@ export const GameContainer = styled.div`
 
       h1 {
         font-size: 2rem;
+        margin-top: 1rem;
       }
 
       div.platform-genre-type {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
 
-        padding-bottom: 4rem;
-
-        span {
-          font-family: 1.6rem;
-          font-weight: bold;
-        }
-
+        margin-top: 4rem;
+        
         p {
-          font-family: 1.6rem;
-          font-weight: 500;
+          font-size: 1.2rem;
+          font-weight: bold;
           color: var(--color-gray-dark);
         }
       }
     }
   }
+  
   div.game-description {
-    //display: flex;
-    //align-items: center;
-    //justify-content: center;
-
     width: 100%;
     height: 100%;
 
-    padding: 1rem;
+    padding: 0rem 1rem 1rem 1rem;
 
     font-weight: 500;
-    font-family: 2rem;
+    font-size: 1.2rem;
     color: var(--color-gray-dark);
   }
 `;

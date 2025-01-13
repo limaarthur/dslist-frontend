@@ -9,7 +9,7 @@ export function HomePage() {
       <HomeContent>
         <h1>Bem vindo a coleção de jogos</h1>
         <p>Organize sua coleção de games de um jeito prático e divertido.</p>
-        <button onClick={() => navigate("lists-type")}>Iniciar</button>
+        <button onClick={() => navigate("lists")}>Iniciar</button>
       </HomeContent>
     </HomePageContainer>
   )

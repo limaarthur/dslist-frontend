@@ -1,24 +1,18 @@
-import { GameContainer } from "./styles";
+import { GameCardContainer } from "./styles";
 import img from "../../assets/game.png"
 
-export function Game() {
+export function GameCard() {
   return (
-    <GameContainer>
+    <GameCardContainer>
       <section>
         <img src={img} alt="Capa do jogo Mass Effect" />
         <div className="game-info">
           <span>2012</span>
           <h1>Mass Effect Trilogy</h1>
           <div className="platform-genre-type">
-            <span>
-              Genre: <p>Role-playng(RPG), Adventure</p> 
-            </span>
-            <span>
-              Platform: <p>Xbox, Playstation, PC</p> 
-            </span>
-            <span>
-              Score: <p>4.7</p>
-            </span>
+            <p>Genre: Role-playng(RPG), Adventure</p>
+            <p>Platform: Xbox, Playstation, PC</p>
+            <p>Score: 4.7</p>
           </div>
         </div>
       </section>
@@ -29,6 +23,6 @@ export function Game() {
           Dignissimos blanditiis quod corporis iste, aliquid perspiciatis architecto quasi tempore ipsam voluptates ea ad distinctio, sapiente qui, amet quidem culpa."
         </p>
       </div>
-    </GameContainer>
+    </GameCardContainer>
   )
 }

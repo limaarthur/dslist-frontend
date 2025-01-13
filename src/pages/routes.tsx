@@ -10,8 +10,8 @@ export function AppRoutes() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/lists" element={<ListsTypeGamePage />} />
-        <Route path="/lists-games" element={<ListsGamesPage />} />
-        <Route path="/card-game" element={<CardGamePage />} />
+        <Route path="/games" element={<ListsGamesPage />} />
+        <Route path="/game-card" element={<CardGamePage />} />
       </Routes>
     </BrowserRouter>
   )

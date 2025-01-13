@@ -1,11 +1,11 @@
 import { Header } from "../components/Header";
-import { Game } from "../components/Game";
+import { GameCard } from "../components/GameCard";
 
 export function CardGamePage() {
   return (
     <>
       <Header />
-      <Game />
+      <GameCard />
     </>
   )
 }

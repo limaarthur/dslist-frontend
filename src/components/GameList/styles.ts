@@ -1,12 +1,18 @@
 import styled from "styled-components";
 
-export const CardGameContainer = styled.li`
+export const GameListContainer = styled.div`
   display: flex;
-  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 1.2rem 10rem;
+
+  .game-lists {
+  display: flex;
   justify-content: center;
 
-  height: 10rem;
   border-radius: 0.5rem;
+  margin-top: 1.5rem;
 
   background-color: var(--color-white);
 
@@ -15,20 +21,20 @@ export const CardGameContainer = styled.li`
     width: 8rem;
     border-radius: 0.4rem 0 0 0.4rem;
   }
-
-  div.game-info {
+  .game-info {
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
     flex-direction: column;
 
     padding: 1.4rem;
     width: 100%;
     height: 100%;
 
-    h1 {
+    .link-game-card {
       font-size: 1.4rem;
+      font-weight: bold;
+      color: black;
       line-height: 150%;
+      text-decoration: none;
     }
 
     p {
@@ -42,4 +48,5 @@ export const CardGameContainer = styled.li`
       color: var(--color-blue-medium);
     }
   }
+ }
 `;
